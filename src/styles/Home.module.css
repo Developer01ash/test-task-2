@@ -1,0 +1,233 @@
+.bannerBg {
+  background-color: #0e185f;
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+}
+.bannerBg h1 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0px 0px 10px;
+}
+.bannerBg p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.bannerBg .onlinePara {
+  font-weight: 500;
+  text-transform: inherit;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.bgBtn,
+.bgBtn:hover {
+  background-color: #00bcd4;
+  color: #000;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 10px 18px;
+  border: 1px solid transparent;
+}
+.borderBtn,
+.borderBtn:hover {
+  margin-left: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 10px 25px;
+}
+.bannerBg img {
+  height: 60%;
+  width: 80%;
+  margin-top: 50px;
+ 
+}
+.featureBg h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.featureBg p {
+  font-size: 15px;
+  text-align: center;
+}
+.featureBg img {
+  width: auto;
+  height: 150px;
+}
+.counter {
+  padding: 50px 0px;
+}
+.counter div {
+  position: relative;
+}
+.counter div h4 {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 700;
+  margin: 0px 0px 10px;
+  color: #343434;
+}
+.counter div p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 0px;
+  color: #343434;
+}
+.counter div span {
+  position: absolute;
+  content: "";
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  top: -4px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+}
+.channel h2 {
+  color: #000;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.channel .mainPara {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 5px 0px;
+}
+.channel a {
+  color: #00bcd4;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 14px;
+  display: block;
+}
+.channel a img {
+  vertical-align: middle;
+}
+.channel .card {
+  border: none;
+  box-shadow: 0px 3px 6px 10px #eeeeee57;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+.channel
+  :global
+  .MuiCardActionArea-root:hover
+  .MuiCardActionArea-focusHighlight {
+  opacity: 0;
+}
+.channel .heading {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0px;
+  text-transform: capitalize;
+}
+.channel p {
+  font-size: 14px;
+  color: #000;
+}
+.testimonial {
+  padding: 50px 0px;
+}
+.testimonial h2 {
+  color: #000;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.testimonial .mainPara {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 5px 0px;
+}
+.testimonial a {
+  color: #00bcd4;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 14px;
+  display: block;
+}
+.testimonial a img {
+  vertical-align: middle;
+}
+.testimonial .card {
+  border-radius: 50px 0px 50px 0px;
+  background-color: #fff2df;
+  box-shadow: none;
+  overflow: visible;
+  padding: 20px;
+  margin-right: 30px;
+}
+.testimonial
+  :global
+  .MuiCardActionArea-root:hover
+  .MuiCardActionArea-focusHighlight {
+  opacity: 0;
+}
+.testimonial .para {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.testimonial .heading {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  padding-left: 10px;
+}
+.testimonial .designation {
+  font-size: 12px;
+  margin: 0px;
+  color: #575555;
+  padding-left: 10px;
+}
+.testimonial .mediaBox {
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: -40px;
+}
+@media screen and (max-width: 900px) {
+  .bannerBg {
+    height: auto;
+    padding: 0px 0px 50px;
+  }
+  .bannerBg h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .testimonial .card {
+    margin: 0px 20px;
+  }
+}
+@media screen and (max-width: 767px){
+  .bannerBg img{
+    margin: auto !important;
+  }
+}

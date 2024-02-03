@@ -1,0 +1,20 @@
+.Header {
+  background: transparent;
+  box-shadow: none;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.Header button {
+  color: #fff;
+  text-transform: capitalize;
+  padding: 6px 20px;
+  font-size: 16px;
+  justify-content: end;
+}
+
+@media screen and (max-width: 900px) {
+  .MuiPaper-root.MuiPaper-elevation {
+    max-width: 100%;
+  }
+}
